@@ -11,7 +11,7 @@ module.exports = function getTimeForEducation(
     ) {
       let time=800, weeks=0;
       if(knowsProgramming == true){
-        return time;
+        time= time;
       }
       else{
         time+=500;
